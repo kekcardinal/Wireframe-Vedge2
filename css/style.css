@@ -1,0 +1,52 @@
+* {
+    /* outline: dotted; */
+}
+
+img {
+    min-height: 250px;
+    /* seulement prototype */
+    max-width: 100%;
+    width: 100%;
+    /* seulement prototype */
+    background-color: lightgrey;
+    /* seulement prototype */
+}
+
+.restaurants {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+.image-gallery>div {
+    flex-basis: 250px;
+    /* width: 350px; */
+}
+
+.image-gallery div img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 50px;
+}
+
+.texte {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
