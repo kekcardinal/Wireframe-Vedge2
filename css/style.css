@@ -46,3 +46,10 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 800px) {
+    .image-gallery {
+        padding: 50px;
+        justify-content: center;
+    }
+}

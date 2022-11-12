@@ -18,6 +18,11 @@
     border-radius: 20px;
 }
 
+.carte input {
+    width: 50%;
+    border-radius: 5px;
+}
+
 hr {
     margin: auto;
     background-color: none;
