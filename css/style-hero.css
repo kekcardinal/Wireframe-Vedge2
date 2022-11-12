@@ -1,0 +1,15 @@
+.gif-animer {
+    margin-top: 100px;
+    object-fit: cover;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 720px;
+    width: 1080px;
+    border-radius: 100px;
+    margin-bottom: 100px;
+}
+
+.hero {
+    font-size: 50pt;
+    color: white;
+}

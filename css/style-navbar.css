@@ -3,6 +3,7 @@
 @import "style.css";
 @import "style-bouton.css";
 @import "style-entete.css";
+@import "style-hero.css";
 
 * {
     padding: 0;
@@ -64,6 +65,7 @@ body {
 
 /* SETTINGS POUR LE MENU DEROULANT*/
 .drop-down {
+    z-index: 1;
     position: absolute;
     display: flex;
     flex-flow: column;
