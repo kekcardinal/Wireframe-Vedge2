@@ -12,15 +12,11 @@ img {
     /* seulement prototype */
 }
 
-.restaurants {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
 .image-gallery {
+    padding: 100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 100px;
 }
 
