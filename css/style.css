@@ -2,7 +2,7 @@
     /* outline: dotted; */
 }
 
-img {
+.image-gallery img {
     min-height: 250px;
     /* seulement prototype */
     max-width: 100%;
@@ -11,6 +11,7 @@ img {
     background-color: lightgrey;
     /* seulement prototype */
 }
+
 
 .image-gallery {
     padding: 100px;
@@ -22,7 +23,6 @@ img {
 
 .image-gallery>div {
     flex-basis: 250px;
-    /* width: 350px; */
 }
 
 .image-gallery div img {

@@ -2,6 +2,7 @@
 
 @import "style.css";
 @import "style-bouton.css";
+@import "style-entete.css";
 
 * {
     padding: 0;
