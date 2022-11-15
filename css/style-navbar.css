@@ -4,6 +4,8 @@
 @import "style-bouton.css";
 @import "style-entete.css";
 @import "style-hero.css";
+@import "style-footer.css";
+@import "style-marquise.css";
 
 * {
     padding: 0;

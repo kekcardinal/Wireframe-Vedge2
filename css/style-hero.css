@@ -1,53 +1,11 @@
-/* .gif-animer {
-    margin-top: 100px;
-    object-fit: cover;
-    margin-left: 100px;
-    margin-right: 100px;
-    height: 720px;
-    width: 1080px;
-    max-width: 100%;
-    border-radius: 100px;
-    margin-bottom: 100px;
-}
-
 .hero {
-    font-size: 50pt;
-    color: white;
-} */
-
-/* .hero-image {
-    display: flex;
-    flex-direction: column;
-    background-image: url("gif.gif");
-    background-size: cover;
-    min-height: 15em;
-    height: 100%;
-    align-self: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero-text {
-    text-align: center;
-    color: white;
-}
-
-.hero-header {
-    align-self: center;
-    font-size: 50px;
-} */
-
-.hero {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
-    width: 84.375vw;
-    height: 66vh;
+    width: 92vw;
+    height: 77vh;
     background-image: url("https://media4.giphy.com/media/3oEhmIDWKdv2yZAaTm/giphy.gif?cid=ecf05e476ivcgsz3tyj1atrl2n021p0doaa38nag89pa0zc2&rid=giphy.gif&ct=g");
     background-size: cover;
 
@@ -56,22 +14,22 @@
 }
 
 
-.hero__text {
+.hero_texte {
     margin: auto;
     text-align: center;
     width: 40vw;
     padding: 5vw;
     font-family: sans-serif;
     color: white;
-    border: 2px solid white;
+    border: 4px solid white;
     border-radius: 20px;
 }
 
-.hero__text__heading {
-    font-size: 7vw;
+.hero_texte_gros {
+    font-size: 6vw;
 }
 
-.hero__text__body {
+.hero__texte_petit {
     padding-top: 1vw;
     font-size: 2vw;
 }

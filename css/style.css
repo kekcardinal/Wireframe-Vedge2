@@ -3,7 +3,7 @@
 }
 
 .image-gallery img {
-    min-height: 293.33px;
+    min-height: 358.67px;
     /* seulement prototype */
     max-width: 100%;
     width: 100%;
@@ -14,15 +14,15 @@
 
 
 .image-gallery {
-    padding: 100px;
+    padding: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 100px;
+    gap: 50px;
 }
 
 .image-gallery>div {
-    flex-basis: 293.33px;
+    flex-basis: 358.67px;
 }
 
 .image-gallery div img {
