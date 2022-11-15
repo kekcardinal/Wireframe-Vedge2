@@ -1,7 +1,7 @@
 .images_entete {}
 
 .image-gallery-entete img {
-    min-height: 590px;
+    min-height: 885px;
     /* seulement prototype */
     max-width: 100%;
     width: 100%;
@@ -20,7 +20,7 @@
 }
 
 .image-gallery-entete>div {
-    flex-basis: 590px;
+    flex-basis: 885px;
 }
 
 .image-gallery-entete div img {
