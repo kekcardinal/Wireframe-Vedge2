@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 
 @import "style.css";
-@import "style-bouton.css";
+@import "style-cartes.css";
 @import "style-entete.css";
 @import "style-hero.css";
 @import "style-footer.css";
 @import "style-marquise.css";
+@import "style-font.css";
+@import "style-gallery.css";
 
 * {
     padding: 0;
@@ -44,7 +46,6 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 20px;
-    color: gray;
     text-decoration: none;
     text-transform: uppercase;
     height: 50px;
@@ -61,7 +62,6 @@ body {
 
 .menu-area a:hover {
     background-color: darkgrey;
-    color: black;
     transition-duration: 0.4s;
 }
 

@@ -1,8 +1,8 @@
 .hero {
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
     border-radius: 20px;
     width: 92vw;
     height: 77vh;
@@ -11,25 +11,16 @@
 
     display: flex;
     align-items: center;
+    border-radius: 50px;
 }
 
 
-.hero_texte {
+.hero_logo {
     margin: auto;
     text-align: center;
     width: 40vw;
     padding: 5vw;
     font-family: sans-serif;
-    color: white;
     border: 4px solid white;
-    border-radius: 20px;
-}
-
-.hero_texte_gros {
-    font-size: 6vw;
-}
-
-.hero__texte_petit {
-    padding-top: 1vw;
-    font-size: 2vw;
+    border-radius: 50px;
 }
